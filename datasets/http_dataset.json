@@ -1,0 +1,22 @@
+{
+    "name": "http_dataset",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "http_linked_service",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation",
+                "relativeUrl": "PushpakVootla21/Datasets/refs/heads/main/Files/cases_deaths.csv"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}
