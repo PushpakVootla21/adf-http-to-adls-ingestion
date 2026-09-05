@@ -1,5 +1,7 @@
 # adf-http-to-adls-ingestion
 
+> **Archived:** superseded by [adf-http-adls-metadata-ingest](https://github.com/PushpakVootla21/adf-http-adls-metadata-ingest), a metadata-driven evolution of this pipeline supporting multiple files, error handling, and notifications.
+
 ADF pipeline to ingest CSV data from an HTTP source into Azure Data Lake Storage Gen2. This project includes linked services, datasets, and pipelines for automating data ingestion from a public URL to cloud storage.
 
 ## Project Structure
